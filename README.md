@@ -2,6 +2,7 @@
 This is my first project using JavaScript.
 
 You can try out the version adapted to run on Ghost here: https://www.stitchesontherun.com/which-pattern-is-the-perfect-match-for-you/
+It looks slightly different to fit the overall design of the blog.
 
 ## What does this app do?
 You are given 4x2 choices concerning your sashiko skill level, taste, the time you want to spend on the project and what kind of sashiko you prefer.
