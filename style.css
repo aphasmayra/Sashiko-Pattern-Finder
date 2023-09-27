@@ -1,0 +1,132 @@
+/* Colors {
+background-color: #171616;
+background-color: #FF5A30;
+background-color: #EB6342;
+background-color: #0D9E6E;
+background-color: #42EBB3} */
+
+/* Sashiko accent color: #004c71; */
+
+/* This applies from 0px to 600px */
+
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #eee;
+  color: #171616;
+  font-family: 'Josefin Sans', sans-serif;
+  max-width: 640px;
+  margin: auto;
+}
+
+footer {
+  margin-top: auto;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  font-size: small;
+  text-align: center;
+  border-style: dotted none none;
+  border-width: 1px;
+  border-color: #004c71;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: #171616;
+  padding: 20px 0px 10px;
+}
+
+main {
+  display: flex;
+  text-align: center;
+}
+
+
+.choices {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  max-width: 640px;
+}
+
+#choice1,
+#choice2 {
+  max-width: 250px;
+  margin-bottom: 1em;
+  width: 100%;
+  border-radius: 25px;
+  background-color: #ddd;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+#choice-img1,
+#choice-img2 {
+  max-width: 230px;
+  margin-top: 10px;
+}
+
+.top-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.sub-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+
+a:link {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #004c71;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+/* This applies from 600px onwards*/
+@media (min-width: 852px) {
+  body {
+    background: #eee;
+    max-width: 1000px;
+  }
+
+  h1 {
+    padding: 70px 0px 40px;
+  }
+
+  .choices {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    max-width: 1000px;
+  }
+
+  #choice1,
+  #choice2 {
+    max-width: 390px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #choice-img1,
+  #choice-img2 {
+    max-width: 350px;
+    margin-top: 20px;
+  }
+
+  footer {
+    margin-top: 30px;
+  }
+}
