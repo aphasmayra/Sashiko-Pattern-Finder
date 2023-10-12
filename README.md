@@ -18,6 +18,4 @@ Feel free to try out the app via the link above. Feel free to adjust it to your 
 ## Who maintains and contributes to the project
 The project was created by me and will be adapted to feature more patterns in the future.
 
-I've realized that I need to use localStorage to make the user experience better. Will do that soon!
-
 Any help making the code cleaner and faster is appreciated!
