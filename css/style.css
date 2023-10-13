@@ -1,14 +1,4 @@
-/* Colors {
-background-color: #171616;
-background-color: #FF5A30;
-background-color: #EB6342;
-background-color: #0D9E6E;
-background-color: #42EBB3} */
-
-/* Sashiko accent color: #004c71; */
-
 /* This applies from 0px to 600px */
-
 
 body {
   min-height: 100vh;
@@ -95,8 +85,24 @@ a:hover {
   cursor: pointer;
 }
 
+div #preloaded-images {
+   position: absolute;
+   overflow: hidden;
+   left: -9px; 
+   top: -9px;
+   height: 1px;
+   width: 1px;
+}
 
-/* This applies from 600px onwards*/
+/* Preload images */
+@media print {
+   div #preloaded-images img {
+		visibility: hidden;
+		display: none;
+		}
+   }
+
+/* This applies from 600px onwards */
 @media (min-width: 852px) {
   body {
     background: #eee;
