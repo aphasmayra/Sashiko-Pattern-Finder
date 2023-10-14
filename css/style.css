@@ -85,7 +85,7 @@ a:hover {
   cursor: pointer;
 }
 
-div #preloaded-images {
+#preloaded-images {
    position: absolute;
    overflow: hidden;
    left: -9px; 
@@ -96,7 +96,7 @@ div #preloaded-images {
 
 /* Preload images */
 @media print {
-   div #preloaded-images img {
+  #preloaded-images {
 		visibility: hidden;
 		display: none;
 		}
