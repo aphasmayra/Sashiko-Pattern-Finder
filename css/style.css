@@ -132,6 +132,10 @@ a:hover {
     margin-top: 20px;
   }
 
+  .resources {
+    font-size: larger;
+  }
+
   footer {
     margin-top: 30px;
   }
