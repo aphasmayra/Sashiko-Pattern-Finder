@@ -1,7 +1,7 @@
 # Sashiko-Pattern-Finder-App
 This is my first project using JavaScript.
 
-You can try out the version adapted to run on Ghost here: https://www.stitchesontherun.com/which-pattern-is-the-perfect-match-for-you/
+You can try out the version adapted to run on Ghost here: [Sashiko Pattern Finder](https://www.stitchesontherun.com/which-sashiko-pattern-is-the-perfect-match-for-you/)
 It looks slightly different to fit the overall design of the blog. But you'll have to sign up. You are very welcome to check out the github version, no need to sign up for that.
 
 ## What does this app do?
